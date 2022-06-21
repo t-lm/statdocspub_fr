@@ -6,9 +6,12 @@ nav:
       - Charger des indicateurs: gs/metrics.md
       - Inviter des membres: gs/members.md
       - Ajouter des graphiques: gs/charts.md
-      - Améliorer l'organisation: gs/organisation.md
+      - Nettoyer: gs/wrapup.md
     - Aller plus loin:
-      - Sructurer les indicateurs: next/index.md
+      - Décrire la collection: next/index.md
+      - Sructurer les indicateurs: next/metrics.md
+      - Collections privées: next/private.md
+      - Tableaux et graphiques: next/charts.md
       - Répondre aux questions: next/questions.md
     - Utiliser Excel:
       - Partager des indicateurs: excel/index.md

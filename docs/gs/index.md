@@ -56,9 +56,7 @@ Si vous n'avez pas les droits suffisants, contactez la personne qui gère l'orga
 Vous êtes prêt à passer à l'[étape suivante](metrics.md).
 
 
-
 ## Prochaines étapes
-
 
 Vous avez appris ce qu'est un compte organisation, comment en créer un ou comment en rejoindre un.
 
