@@ -1,21 +1,21 @@
 site_name: Guide éditeur
 nav:
     - Bienvenue: index.md
-    - Démarrer simplement:
-      - Configurer votre compte: gs/index.md
-      - Charger des indicateurs: gs/metrics.md
-      - Inviter des membres: gs/members.md
+    - Démarrer:
+      - Configurer le compte: gs/index.md
+      - Publier des séries: gs/series.md
+      - Inviter des collaborateurs: gs/members.md
       - Ajouter des graphiques: gs/charts.md
-      - Nettoyer: gs/wrapup.md
+      - Supprimer la collection: gs/wrapup.md
+    - Travailler dans Excel:
+      - Démarrer: excel/index.md
+      - Publication simple: excel/put.md
+      - Publication en masse: excel/batch.md
     - Aller plus loin:
-      - Décrire la collection: next/index.md
-      - Sructurer les indicateurs: next/metrics.md
-      - Collections privées: next/private.md
-      - Tableaux et graphiques: next/charts.md
+      - Organiser la collection: next/index.md
+      - Créer une collection privée: next/private.md
+      - Réaliser tous les graphiques: next/charts.md
       - Répondre aux questions: next/questions.md
-    - Utiliser Excel:
-      - Partager des indicateurs: excel/index.md
-      - Supprimer des indicateurs: excel/remove.md
 theme:
   name: material
   palette:
@@ -25,14 +25,16 @@ theme:
   logo: img/logo_statit_64.png
   favicon: img/favicon.ico
   features:
-    #- navigation.tabs
     - navigation.indexes
     - navigation.sections
     - navigation.instant
     - navigation.tracking
 extra:
-  generator: false #this should remove the Made with Material at the bottom - not working
-  homepage: https://gostatit.com
+  generator: false not working
+  homepage: https://www.gostatit.com
+  analytics:
+    provider: google
+    property: UA-163848470-1
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
