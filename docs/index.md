@@ -8,6 +8,7 @@ Le guide est organisé en **quatre parties**:
 
 * [**Démarrer**](gs/index.md) - publier vos premiers séries et partager les avec vos collaborateur
 * [**Travailler dans Excel**](excel/index.md) - publier des séries directement à partir de Microsoft Excel
+* [**Travailler dans l'API**](api/index.md) - publier des séries directement à partir de l'API
 * [**Aller plus loin**](next/index.md) - quelques explications additionnelles
 * [**Travailler dans l'API**](api/index.md) - publier des séries directement depuis l'API
 
