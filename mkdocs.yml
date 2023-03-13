@@ -10,12 +10,14 @@ nav:
     - Travailler dans Excel:
       - Démarrer: excel/index.md
       - Publication simple: excel/put.md
-      - Publication en masse: excel/batch.md
     - Aller plus loin:
       - Organiser la collection: next/index.md
       - Créer une collection privée: next/private.md
       - Réaliser tous les graphiques: next/charts.md
       - Répondre aux questions: next/questions.md
+    - Travailler avec l'API:
+      - Démarrer: api/index.md
+      - Référence: api/reference.md
 theme:
   name: material
   palette:
