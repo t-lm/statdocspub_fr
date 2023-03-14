@@ -37,10 +37,8 @@ putSerie is used to publish a new serie. Every call to putSerie will replace the
     - **description** - **String** - *optional*. Description of the serie. Text format
     - **unit**- **String** - *optional*. Unit of the serie
     - **sources** - **String** - *optional*. Sources
-    - **tags** - **Array** - *optional*. List of tags for the serie
     - **notes** - **String** - *optional*. Publication notes
     - **observations** - **String** - *optional*. A stringified array of individual observations, for instance "[\"2021-03-07\", 62.0], [\"2021-03-08\", 105.0]". Observation metadata can be added as a third element in each observation array ("[\"2021-03-08\", 105.0, \"value computed\"]"). If metadata is added, it must be added on everyline
-    - **version** - **String** - *optional*. A short comment that will be recorded with the specific serie update
 
 
 #### Response
@@ -104,7 +102,6 @@ As an example, a/b/c is the parent ID of a/b/c/serie1 and a/b/c/serie2
     - **description** - **String** - *optional*. Description of the serie. Text format
     - **unit**- **String** - *optional*. Unit of the serie
     - **sources** - **String** - *optional*. Sources
-    - **tags** - **Array** - *optional*. List of tags for the serie
     - **notes** - **String** - *optional*. Publication notes
     - **observations** - **String** - *optional*. A stringified array of individual observations, for instance "[\"2021-03-07\", 62.0], [\"2021-03-08\", 105.0]". Observation metadata can be added as a third element in each observation array ("[\"2021-03-08\", 105.0, \"value computed\"]"). If metadata is added, it must be added on everyline
 
@@ -141,8 +138,6 @@ deleteSerie is used to remove a serie.
 - **input** - **Object**:
     - **id** - **String** - *required*. ID of the collection. Needs to be the id an existing collection.
     - **name** - **String** - *optional*. Name of the collection
-    - **about** - **String** - *optional*. A field describing the collection in one sentence. Text format
-    - **frequency** - **String** - *optional*. A descriptive field. Accepted values: D (day), W (week), M (month), Q (quarter), S (semester), Y (year)
     - **description** - **String** - *optional*. A descriptive field. Text or markdown format.
     - **tags** - **Array** - *optional*. Tags related to the collection
 
