@@ -38,7 +38,7 @@ putSerie is used to publish a new serie. Every call to putSerie will replace the
     - **unit**- **String** - *optional*. Unit of the serie
     - **sources** - **String** - *optional*. Sources
     - **notes** - **String** - *optional*. Publication notes
-    - **observations** - **String** - *optional*. A stringified array of individual observations, for instance "[\"2021-03-07\", 62.0], [\"2021-03-08\", 105.0]". Observation metadata can be added as a third element in each observation array ("[\"2021-03-08\", 105.0, \"value computed\"]"). If metadata is added, it must be added on everyline
+    - **observations** - **String** - *optional*. An array of individual observations, for instance ["2021-03-07", 62.0], ["2021-03-08", 105.0]
 
 
 #### Response
@@ -103,7 +103,7 @@ As an example, a/b/c is the parent ID of a/b/c/serie1 and a/b/c/serie2
     - **unit**- **String** - *optional*. Unit of the serie
     - **sources** - **String** - *optional*. Sources
     - **notes** - **String** - *optional*. Publication notes
-    - **observations** - **String** - *optional*. A stringified array of individual observations, for instance "[\"2021-03-07\", 62.0], [\"2021-03-08\", 105.0]". Observation metadata can be added as a third element in each observation array ("[\"2021-03-08\", 105.0, \"value computed\"]"). If metadata is added, it must be added on everyline
+    - **observations** - **String** - *optional*. An array of individual observations, for instance ["2021-03-07", 62.0], ["2021-03-08", 105.0]
 
 
 #### Response

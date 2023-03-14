@@ -33,7 +33,7 @@ Now that the collection exists, let's add a serie inside. The required parameter
 curl -X POST \
     -u username:apikey \
     -H "Content-Type: application/json" \
-    -d '{"action": "putSerie", "input": {"id": "username/test/new-york", "name": "New York temperatures", "frequency": "D", "observations": "[[\"2021-03-07\", 10.0], [\"2021-03-08\", 11.4]]" }}' \
+    -d '{"action": "putSerie", "input": {"id": "username/test/new-york", "name": "New York temperatures", "frequency": "D", "observations": [["2021-03-07", 10.0], ["2021-03-08", 11.4]] }}' \
     https://api.gostatit.com/core
 
 
